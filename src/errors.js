@@ -1,0 +1,9 @@
+const JWT_INVALID = 'JWT_INVALID';
+const JWT_EXPIRED = 'JWT_EXPIRED';
+const JWT_MISSING = 'JWT_MISSING';
+
+export {
+    JWT_EXPIRED,
+    JWT_INVALID,
+    JWT_MISSING
+}

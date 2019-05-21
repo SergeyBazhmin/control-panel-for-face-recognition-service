@@ -1,0 +1,17 @@
+.worker-instance {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.worker-instance-name, .worker-instance-id {
+    font-size: 130%;
+}
+
+.worker-instance-item {
+    justify-self: center;
+    align-self: center;
+    margin-top: 10px;
+    margin-left: 50px;
+}

@@ -1,0 +1,94 @@
+.server-instance {
+    margin-top: 20px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: cadetblue;
+}
+
+.server-header {
+    font-weight: 600;
+    font-size: 150%;
+}
+
+.server-workers {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.model {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.running-workers {
+    width: 50%;
+    border-radius: 5px;
+    border-color: cadetblue;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.running-workers-header {
+    text-align: center;
+    font-size: 120%;
+}
+
+.pad-container {
+    padding: 20px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-weight: 200;
+    font-size: 130%;
+    margin-top: 15px;
+}
+
+.chart-container {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.pc-stats-container {
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pc-info-label {
+    font-weight: 600;
+    font-size: 150%;
+}
+
+.disconnect-button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.model-instance-name {
+    font-size: 130%;
+    width: 200px;
+}
+
+.model-instance-item {
+    margin-top: 10px;
+    margin-left: 10px;
+}
